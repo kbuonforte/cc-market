@@ -1,5 +1,5 @@
 {
   "name": "quality-review-plugin",
-  "description": "Adds skills for code quality: /quality-review, /commit-message, and /explain",
-  "version": "1.4.0"
+  "description": "Adds skills for code quality: /quality-review, /commit-message, /explain, and /refactor",
+  "version": "1.5.0"
 }
