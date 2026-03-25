@@ -7,22 +7,26 @@
     {
       "name": "quality-review-plugin",
       "source": "./plugins/quality-review-plugin",
-      "description": "Adds skills for code quality: /quality-review and /commit-message"
+      "description": "Adds skills for code quality: /quality-review and /commit-message",
+      "version": "1.5.0"
     },
     {
       "name": "test-writer-plugin",
       "source": "./plugins/test-writer-plugin",
-      "description": "Adds a /test-writer skill for generating unit tests"
+      "description": "Adds a /test-writer skill for generating unit tests",
+      "version": "1.0.0"
     },
     {
       "name": "version-bump-plugin",
       "source": "./plugins/version-bump-plugin",
-      "description": "A minimal test plugin for exercising upgrade paths"
+      "description": "A minimal test plugin for exercising upgrade paths",
+      "version": "1.1.0"
     },
     {
       "name": "changelog-plugin",
       "source": "./plugins/changelog-plugin",
-      "description": "Adds a /changelog skill for generating changelog entries from recent commits"
+      "description": "Adds a /changelog skill for generating changelog entries from recent commits",
+      "version": "1.0.0"
     }
   ]
 }
