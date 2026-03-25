@@ -1,5 +1,5 @@
 {
   "name": "version-bump-plugin",
   "description": "A minimal test plugin for exercising upgrade paths",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
