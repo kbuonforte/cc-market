@@ -8,5 +8,6 @@
       "name": "quality-review-plugin",
       "source": "./plugins/quality-review-plugin",
       "description": "Adds skills for code quality: /quality-review and /commit-message"
+    }
   ]
 }
