@@ -1,0 +1,6 @@
+{
+  "allow": [
+    "Bash(git diff --staged)",
+    "Bash(git diff HEAD)"
+  ]
+}

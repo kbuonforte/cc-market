@@ -28,3 +28,18 @@ Authored-by: <name>
 ```
 
 Output only the commit message, no explanation.
+
+---
+
+**Tip:** To allow this skill to run git commands automatically without prompting, add the following to your `settings.json`:
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Bash(git diff --staged)",
+      "Bash(git diff HEAD)"
+    ]
+  }
+}
+```
