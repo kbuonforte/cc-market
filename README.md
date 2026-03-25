@@ -31,10 +31,38 @@ cc-market/
 
 ## Available plugins
 
-| Plugin | Skill | Description |
-|---|---|---|
-| `quality-review-plugin` | `/quality-review` | Review code for bugs, security, and performance |
-| `quality-review-plugin` | `/commit-message` | Generate a conventional commit message from staged changes |
+### `quality-review-plugin` — v1.6.0
+Skills for code quality and review.
+
+| Skill | Description |
+|---|---|
+| `/quality-review` | Review code for bugs, security, and performance |
+| `/commit-message` | Generate a conventional commit message from staged changes |
+| `/explain` | Explain what a piece of code does in plain language |
+| `/refactor` | Suggest refactoring improvements for selected code |
+| `/security` | Review selected code for security vulnerabilities |
+
+### `test-writer-plugin` — v1.0.0
+Skills for generating tests.
+
+| Skill | Description |
+|---|---|
+| `/test-writer` | Generate unit tests for selected code |
+
+### `changelog-plugin` — v1.0.0
+Skills for release documentation.
+
+| Skill | Description |
+|---|---|
+| `/changelog` | Generate a changelog entry from recent commits |
+
+### `version-bump-plugin` — v1.1.0
+A minimal test plugin for exercising upgrade paths.
+
+| Skill | Description |
+|---|---|
+| `/hello` | A simple hello skill for upgrade path testing |
+| `/version` | Report the current installed plugin version |
 
 ## Adding a plugin
 
