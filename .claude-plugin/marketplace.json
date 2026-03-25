@@ -13,6 +13,11 @@
       "name": "test-writer-plugin",
       "source": "./plugins/test-writer-plugin",
       "description": "Adds a /test-writer skill for generating unit tests"
+    },
+    {
+      "name": "version-bump-plugin",
+      "source": "./plugins/version-bump-plugin",
+      "description": "A minimal test plugin for exercising upgrade paths"
     }
   ]
 }
