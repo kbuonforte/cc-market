@@ -34,6 +34,7 @@ cc-market/
 | Plugin | Skill | Description |
 |---|---|---|
 | `quality-review-plugin` | `/quality-review` | Review code for bugs, security, and performance |
+| `quality-review-plugin` | `/commit-message` | Generate a conventional commit message from staged changes |
 
 ## Adding a plugin
 

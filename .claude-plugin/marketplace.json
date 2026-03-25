@@ -7,7 +7,6 @@
     {
       "name": "quality-review-plugin",
       "source": "./plugins/quality-review-plugin",
-      "description": "Adds a /quality-review skill for quick code reviews"
-    }
+      "description": "Adds skills for code quality: /quality-review and /commit-message"
   ]
 }
