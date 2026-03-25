@@ -4,22 +4,21 @@ A plugin marketplace for [Claude Code](https://claude.ai/claude-code), providing
 
 ## Overview
 
-cc-market organizes Claude Code plugins into **marketplaces** — curated collections of plugins, each containing one or more **skills** (custom slash commands). The `forge` marketplace is the primary collection in this repo.
+cc-market organizes Claude Code plugins into a **marketplace** — a curated collection of plugins, each containing one or more **skills** (custom slash commands).
 
 ## Structure
 
 ```
 cc-market/
-└── forge/                          # A marketplace collection
-    ├── .claude-plugin/
-    │   └── marketplace.json        # Marketplace manifest
-    └── plugins/
-        └── quality-review-plugin/  # An individual plugin
-            ├── .claude-plugin/
-            │   └── plugin.json     # Plugin metadata
-            └── skills/
-                └── quality-review/
-                    └── SKILL.md    # Skill definition & prompt
+├── .claude-plugin/
+│   └── marketplace.json        # Marketplace manifest
+└── plugins/                    # All plugins live here
+    └── quality-review-plugin/  # An individual plugin
+        ├── .claude-plugin/
+        │   └── plugin.json     # Plugin metadata
+        └── skills/
+            └── quality-review/
+                └── SKILL.md    # Skill definition & prompt
 ```
 
 ### Key concepts
@@ -32,18 +31,16 @@ cc-market/
 
 ## Available plugins
 
-### `forge` marketplace
-
 | Plugin | Skill | Description |
 |---|---|---|
 | `quality-review-plugin` | `/quality-review` | Review code for bugs, security, and performance |
 
 ## Adding a plugin
 
-1. Create a directory under `forge/plugins/<your-plugin-name>/`
+1. Create a directory at `plugins/<your-plugin-name>/`
 2. Add `.claude-plugin/plugin.json` with `name`, `description`, and `version`
 3. Add one or more skills under `skills/<skill-name>/SKILL.md`
-4. Register the plugin in `forge/.claude-plugin/marketplace.json`
+4. Register the plugin in `.claude-plugin/marketplace.json`
 
 ### `plugin.json` format
 
