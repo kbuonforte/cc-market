@@ -1,0 +1,5 @@
+{
+  "name": "changelog-plugin",
+  "description": "Adds a /changelog skill for generating changelog entries from recent commits",
+  "version": "1.0.0"
+}

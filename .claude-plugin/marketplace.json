@@ -18,6 +18,11 @@
       "name": "version-bump-plugin",
       "source": "./plugins/version-bump-plugin",
       "description": "A minimal test plugin for exercising upgrade paths"
+    },
+    {
+      "name": "changelog-plugin",
+      "source": "./plugins/changelog-plugin",
+      "description": "Adds a /changelog skill for generating changelog entries from recent commits"
     }
   ]
 }
