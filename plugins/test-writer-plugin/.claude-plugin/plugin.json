@@ -1,0 +1,5 @@
+{
+  "name": "test-writer-plugin",
+  "description": "Adds a /test-writer skill for generating unit tests for selected code",
+  "version": "1.0.0"
+}

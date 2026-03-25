@@ -8,6 +8,11 @@
       "name": "quality-review-plugin",
       "source": "./plugins/quality-review-plugin",
       "description": "Adds skills for code quality: /quality-review and /commit-message"
+    },
+    {
+      "name": "test-writer-plugin",
+      "source": "./plugins/test-writer-plugin",
+      "description": "Adds a /test-writer skill for generating unit tests"
     }
   ]
 }
